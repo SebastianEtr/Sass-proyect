@@ -1,0 +1,129 @@
+@media screen and (min-width: 768px) {
+  .content-header {
+    width: 100%;
+    height: 513px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-header .Image-header img {
+    width: 400px;
+    height: 342px;
+  }
+  .link-pre code {
+    position: relative;
+    left: 230px;
+    bottom: 6px;
+  }
+  .text-content p {
+    position: relative;
+    left: 77px;
+    top: 5px;
+  }
+  .container-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    background: black;
+    text-align: center;
+  }
+  .random-images .container-image1 .img-random img {
+    width: 500px;
+    height: 342px;
+  }
+  .random-images .container-image2 .img-random img {
+    width: 500px;
+    height: 342px;
+  }
+  .text-image {
+    margin: 0%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-image code {
+    padding: 10px 115px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .content-header {
+    justify-content: end;
+  }
+  .content-header .Image-header img {
+    width: 396px;
+    height: 308px;
+    display: block;
+  }
+  .content {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 58px;
+  }
+  .link-pre code {
+    position: relative;
+    left: -193px;
+    bottom: 28px;
+  }
+  .text-content h2 {
+    left: 76px;
+    position: relative;
+  }
+  .text-content p {
+    position: relative;
+    left: 174px;
+    top: 18px;
+    margin: 25px;
+  }
+  .img-random {
+    height: 100px;
+  }
+  .container-images {
+    max-width: 992px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .text-image {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .random-images .container-image1 .width-imagen {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    justify-content: flex-start;
+  }
+  .random-images .container-image1 .img-random img {
+    width: 396px;
+    height: 308px;
+    position: relative;
+    left: 253px;
+    bottom: 337px;
+  }
+  .random-images .container-image2 .width-imagen .text-image {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    justify-content: flex-start;
+    position: relative;
+    left: 228px;
+  }
+  .random-images .container-image2 .img-random img {
+    width: 396px;
+    height: 308px;
+    position: relative;
+    right: 253px;
+    bottom: 287px;
+  }
+}
