@@ -1,4 +1,6 @@
 # Instrucciones
+LO ENVIE DE ESTA FORMA, POR LA INSTRUCCIONES INDICADAS EN LA PAGINA, EN CIERTO PUNTO ME NEGABA EL PUSH
+
 
 Antes que nada vamos a crear una nueva branch para trabajar.
 
